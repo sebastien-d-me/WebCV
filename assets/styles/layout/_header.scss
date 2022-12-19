@@ -1,0 +1,33 @@
+/** Header **/
+.header {
+    align-items: center;
+    background-color: $black;
+    display: flex;
+    filter: drop-shadow(1px 2.5px 5px $black);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 125px;
+    padding: 0 50px;
+    width: calc(100% - 100px);
+    z-index: 2;
+}
+
+// Logo
+.header__logo {
+    width: calc(800px / 3);
+}
+
+/// Responsive
+@media screen and (max-width: 992px) {
+    .header {
+        flex-direction: column;
+        gap: 25px 0;
+        padding: 12.5px 0;
+        width: 100%;
+    }
+
+    // Logo
+    .header__logo {
+        width: calc(800px / 4);
+    }
+}

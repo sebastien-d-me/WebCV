@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "outDir": "./assets/scripts/",
+        "target": "es2022"
+    },
+    "exclude": ["./node_modules"],
+    "include": ["./assets/scripts/*.ts"]
+}

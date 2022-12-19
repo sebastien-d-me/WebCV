@@ -1,0 +1,48 @@
+/** Projects **/
+// Buttons
+.projects__buttons {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.button--frontend-mentor {
+    background-color: $white;
+    background-image: url("../images/projects/buttons/frontend-mentor.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: $black;
+    height: 27px;
+    padding: 10px 0;
+
+    &:hover {
+        border-color: $black;
+    }
+}
+
+// Error
+.projects__error {
+    display: none;
+}
+
+// List
+.projects__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+/// Responsive
+@media screen and (max-width: 992px) {
+    // Buttons
+    .projects__buttons {
+        flex-direction: column;
+
+        >.button {
+            min-width: 250px
+        }
+    }
+}

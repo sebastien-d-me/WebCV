@@ -1,0 +1,24 @@
+/** Footer **/
+.footer {
+    align-items: center;
+    background-color: $black;
+    color: $white;
+    display: flex;
+    filter: drop-shadow(1px -2.5px 5px $black);
+    font-size: 18px;
+    font-weight: bold;
+    gap: 10px 0;
+    justify-content: space-evenly;
+    min-height: 85px;
+    padding: 0 50px;
+    text-align: center;
+    width: calc(100% - 100px);
+    z-index: 2;
+}
+
+/// Responsive
+@media screen and (max-width: 992px) {
+    .footer {
+        flex-direction: column;
+    }
+}

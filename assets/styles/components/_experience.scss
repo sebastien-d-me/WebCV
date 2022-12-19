@@ -1,0 +1,110 @@
+/** Experiences **/
+// Category
+.experience__category {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+// Experience
+.experience {
+    border-bottom: 1px solid $grey;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+    &:last-of-type {
+        border-bottom: unset;
+        padding-bottom: unset;
+    }
+}
+
+// Header
+.experience__header {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+// Title
+.experience__title {
+    font-weight: bold;
+}
+
+// Date
+.experience__date {
+    font-size: 15px;
+}
+
+// Badge
+.experience__badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.experience__badge {
+    border-radius: 20px;
+    color: $white;
+    font-size: 15px;
+    padding: 3px 10px;
+    text-align: center;
+    width: fit-content;
+
+    &--place {
+        background-color: $green;
+    }
+
+    &--link {
+        background-color: $blue;
+        text-decoration: none;
+    }    
+}
+
+// List
+.experience__list {
+    font-size: 15px;
+    margin: 8.5px 0 0 0;
+}
+
+.experience__item--nested {
+    list-style: none;
+}
+
+/// Responsive
+@media screen and (max-width: 992px) {
+    // Header
+    .experience__header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    // Title
+    .experience__title {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    // Badge
+    .experience__badges {
+        justify-content: center;
+        margin: 20px auto 10px auto;
+    }
+
+    .experience__badge {
+        align-items: center;
+        display: flex;
+        height: 30px;
+        justify-content: center;
+        width: 250px;
+    }
+
+    // List
+    .experience__list {
+        padding-left: 20px;
+    }
+}

@@ -1,0 +1,22 @@
+/** Links **/
+.link {
+    color: $blue;
+    text-decoration: none;
+    transition: 0.5s;
+
+    &:hover {
+        color: $green;
+    }
+
+    &.active {
+        color: $white;
+    }
+}
+
+/// Responsive
+@media screen and (max-width: 992px) {
+    // Active
+    .link.active {
+        color: $black;
+    }
+}

@@ -1,0 +1,54 @@
+/** Contact **/
+#contact {
+    background-image: url("../images/contact/background.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: unset;
+    text-align: center;
+}
+
+// Description
+.contact__description {
+    color: $white;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+// List
+.contact__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 25px;
+    margin: unset;
+    padding: unset;
+}
+
+.contact__item {
+    align-items: center;
+    display: flex;
+    flex: 1 0 calc((100% / 2) - 25px);
+    flex-direction: column;
+}
+
+// Icon
+.contact__icon {
+    font-size: 35px;
+}
+
+// Name
+.contact__name {
+    align-items: center;
+    color: $white;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+/// Responsive
+@media screen and (max-width: 992px) {
+    // List
+    .contact__list {
+        flex-direction: column;
+    }
+}

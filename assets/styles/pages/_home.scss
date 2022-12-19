@@ -1,0 +1,49 @@
+/** Home **/
+#home {
+    padding-bottom: unset;
+}
+
+// Video
+.home__video {
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 127.5px;
+    width: 100%;
+}
+
+// Title
+.home__title {
+    margin-top: unset;
+}
+
+// Description
+.home__description {
+    color: $grey;
+    font-size: 18px;
+    margin: 0 auto 25px auto;
+    text-align: center;
+}
+
+// Buttons
+.home__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/// Responsive
+@media screen and (max-width: 992px) {
+    #home {
+        background-image: url("../images/home/background.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    // Video
+    .home__video {
+        display: none;
+    }
+}

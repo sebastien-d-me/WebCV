@@ -1,0 +1,38 @@
+/** Legal notice **/
+#legal-notice {
+    align-items: unset;
+    text-align: center;
+    width: 800px;
+}
+
+// Type 
+.legal-notice__type {
+    display: flex;
+    flex-direction: column;
+}
+
+.legal-notice__type:last-of-type {
+    >.legal-notice__description {
+        text-align: left;
+    }
+}
+
+// Category
+.legal-notice__category {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 25px 0 5px 0;
+}
+
+// Description
+.legal-notice__description {
+    margin: 0;
+}
+
+// List
+.legal-notice__list {
+    list-style: none;
+    margin: unset;
+    padding: unset;
+}
+
