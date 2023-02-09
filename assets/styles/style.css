@@ -279,7 +279,6 @@ body {
   font-size: 15px;
   padding: 3px 10px;
   text-align: center;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -616,7 +615,6 @@ body {
   }
   .about-me__boxes {
     flex-direction: column;
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
   }

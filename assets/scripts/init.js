@@ -29,7 +29,7 @@ const activeLink = (path) => {
 };
 // Selects the active link based on the URL of the current page
 switch (currentPage) {
-    case "/pages":
+    case currentPage:
         activeLink("home");
         break;
     case "/pages/index":

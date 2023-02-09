@@ -72,6 +72,8 @@
                         <i class="box__icon ri-time-line"></i> History
                     </li>
                     <li class="box__item--flex">
+                        <i class="box__icon ri-function-line"></i> Lego Bricks
+                    <li class="box__item--flex">
                         <i class="box__icon ri-computer-line"></i> Technology
                     </li>
                 </ul>
