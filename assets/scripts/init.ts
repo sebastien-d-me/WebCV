@@ -28,14 +28,12 @@ const manageMenu = () => {
 const activeLink = (path: string) => {
     const linkId = `link--${path.replace("/pages/", "")}`;
     const link = document.getElementById(linkId);
-    if (link) {
-        link.classList.add("active");
-    }
+    link !== null ? link.classList.add("active") : "";
 };
 
 // Selects the active link based on the URL of the current page
 switch (currentPage) {
-    case currentPage:
+    case "/":
         activeLink("home");
         break;
     case "/pages/index":
