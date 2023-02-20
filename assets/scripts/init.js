@@ -33,7 +33,7 @@ switch (currentPage) {
     case "/pages/index":
         activeLink("home");
         break;
-    case "/pages/about-me.php":
+    case "/pages/about-me":
         activeLink("about-me");
         break;
     case "/pages/projects":
