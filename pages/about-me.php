@@ -32,11 +32,11 @@
             </picture>
 
             <p class="about-me__description">
-                Immersed in the world of technology since my childhood, I took a passion for web development. Over the years I have been able to improve and study in this field.
-                    <br><br>
-                I spend a good part of my free time making various projects. Whether it is templates, tools, games, mobile applications, etc.. Or to continue to expand my range of knowledge in order to realize projects always better than the others.
-                    <br><br>
-                I will be happy to put at your disposal my knowledge and my skills !
+                Immersed in the world of technology since childhood, I became passionate about web development.
+                <br><br>
+                I spend a good part of my free time working on different projects (websites, games, applications) and learning to always improve myself.
+                <br><br>
+                It would be a pleasure for me to put my knowledge and skills at your disposal!
             </p>
         </div>
 
