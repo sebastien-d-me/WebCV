@@ -110,8 +110,33 @@
             <span class="experience__category">QUALIFICATIONS AND TRAINING</span>
             <div class="experience">
                 <div class="experience__header">
-                    <span class="experience__title">⌛ TRAINING RNCP35976 | Application developer - PHP/Symfony</span>
-                    <span class="experience__date">12/2022 - In progress</span>
+                    <span class="experience__title">⌛ TRAINING RNCP35634 | UI Designer</span>
+                    <span class="experience__date">10/2023 - In progress</span>
+                </div>
+                <div class="experience__badges">
+                    <span class="experience__badge experience__badge--place">La Manu (France)</span>
+                    <a class="experience__badge experience__badge--link" href="https://lamanu.fr/alternance/formation-concepteur-designer-ui/">See the training page</a>
+                </div>
+                <ul class="experience__list">
+                    <li>Summary of the training :</li>
+                    <li class="experience__item--nested">
+                        <ul>
+                            <li>Graphic design (web, print and video), web integration, digital marketing as well as project management and customer needs.</li>
+                        </ul>
+                    </li>
+                    <li>Result :</li>
+                    <li class="experience__item--nested">
+                        <ul>
+                            <li>In progress</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <div class="experience__header">
+                    <span class="experience__title">✅ TRAINING RNCP35976 | Application developer - PHP/Symfony</span>
+                    <span class="experience__date">12/2022 - 09/2023</span>
                 </div>
                 <div class="experience__badges">
                     <span class="experience__badge experience__badge--place">OpenClassrooms (Remote)</span>
@@ -128,7 +153,7 @@
                     <li>Result :</li>
                     <li class="experience__item--nested">
                         <ul>
-                            <li>In progress</li>
+                            <li>Diploma obtained.</li>
                         </ul>
                     </li>
                 </ul>
@@ -137,7 +162,7 @@
             <div class="experience">
                 <div class="experience__header">
                     <span class="experience__title">✅ TRAINING RNCP27099 | Front-End Developer</span>
-                    <span class="experience__date">09/2021 - 09/2022</span>
+                    <span class="experience__date">09/2021 - 08/2022</span>
                 </div>
                 <div class="experience__badges">
                     <span class="experience__badge experience__badge--place">OpenClassrooms (Remote)</span>
